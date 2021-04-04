@@ -5,7 +5,6 @@ import "./App.css";
 
 function App() {
 	const [titles, setTitles] = useState<TTitles[]>([]);
-	console.log("titles", titles);
 	return (
 		<div className="App">
 			<Main setTitles={setTitles} />

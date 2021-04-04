@@ -1,24 +1,28 @@
-# Getting Started with Create React App
+To Check Out the results of this code, you can go to the Netlify deploy of this [repo](https://ecstatic-pare-5054da.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Or you can install this on your local:
 
-## Available Scripts
+Installation:
 
-In the project directory, you can run:
+Step 0: Get an API key from [omdbapi.com](http://www.omdbapi.com/apikey.aspx)
 
-### `yarn start`
+Step 1:
+` $ git clone git@github.com:kermitjosephlee/serind-labs-challenge.git`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Step 2: create an `.env` at the root level of the repo and inside that file write...
+`REACT_APP_OMDB_API="http://www.omdbapi.com/?apikey=<your API key from Step 0 here>"`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Step 3: Install the dependencies
 
-## Learn More
+```
+$ yarn install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Step 4: fire it up on your local
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+$ yarn start
+```
 
 ---
 

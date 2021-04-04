@@ -12,8 +12,6 @@ export function ResultsItem({ title, setSelectedTitle }: IProps) {
 		setSelectedTitle(title);
 	};
 
-	console.log("title", title);
-
 	const { Title, Year, Type, Poster } = title;
 
 	return (
