@@ -1,0 +1,55 @@
+.main-form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+.text-area {
+	height: 1em;
+	font-size: 15pt;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 5px;
+}
+
+.search {
+	width: 350px;
+}
+
+.search:hover {
+	background-color: #fafafa;
+}
+
+.year {
+}
+
+.year:hover {
+	background-color: #fafafa;
+}
+
+.type {
+	height: 2em;
+	padding: 0;
+	margin-left: 40px;
+}
+
+.type:hover {
+	background-color: #fafafa;
+}
+
+.submit {
+	padding: 16px;
+	border-radius: 5px;
+	font-size: 14pt;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background-color: #ddd;
+}
+
+.submit:active {
+	background-color: #ccc;
+}

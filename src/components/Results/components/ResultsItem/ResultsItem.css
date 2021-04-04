@@ -1,0 +1,19 @@
+.results-item {
+	padding: 20px;
+}
+
+.details-button {
+	margin: 10px 20px;
+	padding: 5px 0;
+	border: 3px solid #aaa;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.details-button:hover {
+	background-color: #ddd;
+}
+
+.details-button:active {
+	background-color: #ccc;
+}
