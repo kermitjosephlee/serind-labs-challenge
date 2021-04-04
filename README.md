@@ -2,23 +2,25 @@ To Check Out the results of this code, you can go to the Netlify deploy of this 
 
 Or you can install this on your local:
 
-Installation:
+## Installation:
 
 Step 0: Get an API key from [omdbapi.com](http://www.omdbapi.com/apikey.aspx)
 
-Step 1:
+#### Step 1:
+
 ` $ git clone git@github.com:kermitjosephlee/serind-labs-challenge.git`
 
-Step 2: create an `.env` at the root level of the repo and inside that file write...
+#### Step 2: create an `.env` at the root level of the repo and inside that file write...
+
 `REACT_APP_OMDB_API="http://www.omdbapi.com/?apikey=<your API key from Step 0 here>"`
 
-Step 3: Install the dependencies
+#### Step 3: Install the dependencies
 
 ```
 $ yarn install
 ```
 
-Step 4: fire it up on your local
+#### Step 4: fire it up on your local
 
 ```
 $ yarn start
@@ -26,22 +28,26 @@ $ yarn start
 
 ---
 
-Sekine Labs Code Challenge
+## Sekine Labs Code Challenge
 
 Started at Saturday April 3rd @ 4:00pm
 
 Serind’s Front End Take Home Test
 
-Stack to use: -[X] ReactJS (Required) -[X] React hooks (Required) -[X] TypeScript (Optional)
+##### Stack to use:
 
+- [x] ReactJS (Required)
+- [x] React hooks (Required)
+- [x] TypeScript (Optional)
 - Use any other libraries you like
 
-Your Mission:
+#### Your Mission:
+
 Your mission is to create a single page app (SPA) using the OMDB API
 (http://www.omdbapi.com/). Your application should have 2 pages, one for showing
 movie list and second for showing movie details.
 
-Your Tasks:
+#### Your Tasks:
 
 - We want to see a functional site that uses the api. If you have any doubts, feel free to
   make assumptions. Functionality is more important than the look and feel. If you finish
